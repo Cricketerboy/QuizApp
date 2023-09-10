@@ -33,7 +33,7 @@ class _HomePageState extends State<HomePage> {
     return Scaffold(
       appBar: AppBar(
         automaticallyImplyLeading: false,
-        title: Text('Quiz App'),
+        title: Text('Survey App'),
         centerTitle: true,
         backgroundColor: Colors.greenAccent,
       ),
@@ -94,9 +94,9 @@ class _HomePageState extends State<HomePage> {
                             .entries
                             .toList()[i]
                             .value) {
-                          score += 10;
+                          score += 1;
                         } else {
-                          score -= 10;
+                          score -= 1;
                         }
                       },
                       child: Text(
