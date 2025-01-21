@@ -1,16 +1,35 @@
-# quizapp
+# Flutter Quiz App
 
-A new Flutter project.
+A simple, interactive, and responsive Quiz application built with Flutter. This app fetches questions from an API and provides a fun and engaging way for users to test their knowledge.
 
-## Getting Started
+## Features
 
-This project is a starting point for a Flutter application.
+- Interactive quiz interface.
+- Fetches questions dynamically from an API.
+- Supports scoring and result display.
+- Fully responsive design for all screen sizes.
+- Intuitive UI with attractive colors.
 
-A few resources to get you started if this is your first Flutter project:
+## Installation and Setup
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+### Prerequisites
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+Ensure you have the following installed on your system:
+
+- **Flutter SDK** (Latest stable version): [Download Flutter](https://flutter.dev/docs/get-started/install)
+- **Dart** (Comes with Flutter installation)
+- A code editor like **VS Code** or **Android Studio**.
+- A connected device or emulator for testing.
+
+### Steps to Run the App
+
+1. **Clone the Repository**  
+   git clone https://github.com/your-username/flutter-quiz-app.git
+   cd flutter-quiz-app
+
+2. **Install Dependencies**  
+   flutter pub get
+
+2. **Run the App**  
+   flutter run
+   
